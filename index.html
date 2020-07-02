@@ -7,17 +7,13 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
 
     <title>Hello, world!</title>
   </head>
   <body>
-    <nav class="bg-dark text-white">
-    <div class="container">
-        <div class="row">
-          <div class="col-3 d-inline align-middle p-2">
-            <h5 class="text-center"><strong>The Surfing Project</strong></h5>
-          </div>
-          <div class="col-8 justify-content-start">
+    <nav class="navbar navbar-expand-lg bg-dark text-white">   
+            <a class="navbar-brand text-light" href="#">The Surfing Project</a>                
             <ul class="nav">
               <li class="nav-item">
               <a class="nav-link active text-light" href="#">Accueil</a>
@@ -28,26 +24,127 @@
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle text-light" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Nos prochaines sessions</a>
                 <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <a class="dropdown-item" href="#">Something else here</a>
+                  <a class="dropdown-item" href="#">Session 1</a>
+                  <a class="dropdown-item" href="#">Session 2</a>
+                  <a class="dropdown-item" href="#">Session 3</a>
                 </div>  
               </li>
             </ul>
-          </div>
-        </div>
-      </div>
     </nav>
 
     <header>
+
+      <div class="jumbotron jumbotron-hero jumbotron-fluid">
+        <div class="container text-center">
+        <h1 class="display-4 text-white">Partez à l'aventure</h1>
+        <p class="lead text-white">Découvrez notre école de surf en peer-learning</p>
+        <hr class="my-4">
+        <a class="btn btn-primary btn-lg" href="#" role="button">Je m'inscris à la prochaine session</a>
+        <a class="btn btn-secondary btn-lg" href="#" role="button">Je découvre le programme</a>
+      </div>
+      </div>
 
     </header>
 
     <section>
 
+      
+        <div class="container py-1">
+          <div class="p-3">
+            <h1 class="text-center">The Surfing Project en 3 points</h1>
+          </div>
+
+          <div class="row">
+            
+            <div class="col-md-4">
+              <div class="display-1 text-center">
+              <i class="fas fa-money-bill-wave-alt"></i>
+              </div>
+              <div class="card-body">
+                <h2 class="text-center">Pas chère</h2>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque iusto aspernatur officia voluptatem modi consequatur et, sint molestias nihil delectus veniam quo vero voluptas consequuntur illo praesentium, quisquam ducimus molestiae?</p>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="display-1 text-center">
+              <i class="fas fa-couch"></i>
+              </div>
+              <div class="card-body">
+                <h2 class="text-center">Pas chère</h2>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque iusto aspernatur officia voluptatem modi consequatur et, sint molestias nihil delectus veniam quo vero voluptas consequuntur illo praesentium, quisquam ducimus molestiae?</p>
+              </div>
+            </div>
+
+             <div class="col-md-4">
+              <div class="display-1 text-center">
+              <i class="fas fa-users"></i>
+              </div>
+              <div class="card-body">
+                <h2 class="text-center">Pas chère</h2>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque iusto aspernatur officia voluptatem modi consequatur et, sint molestias nihil delectus veniam quo vero voluptas consequuntur illo praesentium, quisquam ducimus molestiae?</p>
+              </div>
+            </div>
+
+        </div>
+      
     </section>
 
     <section>
+      <div class="album py-2 bg-light">
+        <div class="container">
+    
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+
+
 
     </section>
 
@@ -59,6 +156,8 @@
 
     </footer>
 
+
+    <script src="https://kit.fontawesome.com/72a0969713.js" crossorigin="anonymous"></script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
